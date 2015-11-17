@@ -1,0 +1,27 @@
+All passwords in the database are hashed. 
+The un-hashed passwords are as follows:
+=====================================================================
+Administrators:
+=====================================================================
+
+user: admin
+pass: admin
+
+
+=====================================================================
+Users:
+=====================================================================
+
+user: test
+pass: test
+
+user: jessica
+pass: jessica
+
+user: sandra
+pass: sandra
+
+user: sally
+pass: sally
+
+

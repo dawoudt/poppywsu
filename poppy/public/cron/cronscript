@@ -1,0 +1,13 @@
+To enable auto email notification system on a linux/unix system
+
+1. open a terminal window
+2. type sudo crontab -e 
+	example: home ~> sudo crontab -e
+
+3. enter super user (administrator) password
+4. if prompted to select editing tool, choose easiest option (nano)
+5. at the bottom of the page append the following lines
+
+0 12 * * * wget 'http://localhost:80/poppy/notify.php'
+
+note that the above line will run the notify script at midnight of every sunday.

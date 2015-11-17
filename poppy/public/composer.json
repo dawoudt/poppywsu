@@ -1,0 +1,7 @@
+{
+	"require":{
+		"phpmailer/phpmailer": "dev-master",
+		"slim/slim": "~2.0"
+	}
+
+}
